@@ -1,4 +1,12 @@
 @endpoint = https://gyn6crh710.execute-api.ap-southeast-2.amazonaws.com/prod/
 
-GET {{endpoint}}/hello/
+POST {{endpoint}}/spaces/
+Content-Type: application/json
+
+{
+  "location": "London"
+}
+###
+
+GET {{endpoint}}/spaces/
 ###
